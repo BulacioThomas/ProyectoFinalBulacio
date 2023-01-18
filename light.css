@@ -1,0 +1,18 @@
+:root {
+	--background-color: #f5f5f5;
+}
+
+body,
+p,
+li,
+h1,
+h2,
+h3,
+a {
+	color: #111 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: rgb(49, 47, 47) !important;
+}

@@ -1,0 +1,33 @@
+:root {
+	--background-color: #1d1d1d;
+}
+
+body,
+p,
+li,
+h1,
+h2,
+h3,
+a {
+	color: rgb(221, 221, 221) !important;
+}
+
+.card {
+	background-color: #222;
+}
+
+select {
+	background-color: #333 !important;
+	color: rgb(221, 221, 221) !important;
+}
+
+input,
+textarea {
+	background-color: rgb(49, 47, 47) !important;
+	color: rgb(221, 221, 221) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: rgb(143, 143, 143) !important;
+}

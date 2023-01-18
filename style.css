@@ -1,0 +1,85 @@
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+:root {
+	color-scheme: light dark;
+}
+
+body {
+	background-color: var(--background-color);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0 1rem;
+}
+
+header {
+	border-bottom: 1px solid rgba(42, 42, 42, 0.172);
+	margin-bottom: 2rem;
+}
+
+h1 {
+	text-align: center;
+}
+
+.carousel-item__img {
+	max-width: 25rem;
+	max-height: 25rem;
+	margin: 0 auto;
+}
+
+.offers__titulo {
+	text-align: center;
+	padding: 1rem;
+}
+
+.card-group img {
+	max-width: 35%;
+}
+
+footer {
+	text-align: center;
+}
+
+.card-group {
+	text-align: center;
+}
+.card-group img {
+	margin: auto;
+}
+
+.card-group button {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.product-card img {
+	max-width: 50%;
+}
+
+.carrito {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 500px;
+}
+
+.seccion-productos {
+	flex-direction: column;
+}
+.seccion-productos .product-card {
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+	.seccion-productos {
+		flex-direction: row;
+	}
+	.seccion-productos .product-card {
+		max-width: 25%;
+	}
+}
